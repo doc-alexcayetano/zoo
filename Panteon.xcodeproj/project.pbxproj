@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA30004C1D95D98B0059257B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30004B1D95D98B0059257B /* AppDelegate.swift */; };
+		FA30004E1D95D98B0059257B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30004D1D95D98B0059257B /* ViewController.swift */; };
+		FA3000511D95D98C0059257B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA30004F1D95D98C0059257B /* Main.storyboard */; };
+		FA3000541D95D98C0059257B /* Panteon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA3000521D95D98C0059257B /* Panteon.xcdatamodeld */; };
+		FA3000561D95D98C0059257B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3000551D95D98C0059257B /* Assets.xcassets */; };
+		FA3000591D95D98C0059257B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3000571D95D98C0059257B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA3000481D95D98B0059257B /* Panteon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panteon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA30004B1D95D98B0059257B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA30004D1D95D98B0059257B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA3000501D95D98C0059257B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3000531D95D98C0059257B /* Panteon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Panteon.xcdatamodel; sourceTree = "<group>"; };
+		FA3000551D95D98C0059257B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3000581D95D98C0059257B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA30005A1D95D98C0059257B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3000451D95D98B0059257B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA30003F1D95D98B0059257B = {
+			isa = PBXGroup;
+			children = (
+				FA30004A1D95D98B0059257B /* Panteon */,
+				FA3000491D95D98B0059257B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3000491D95D98B0059257B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3000481D95D98B0059257B /* Panteon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA30004A1D95D98B0059257B /* Panteon */ = {
+			isa = PBXGroup;
+			children = (
+				FA30004B1D95D98B0059257B /* AppDelegate.swift */,
+				FA30004D1D95D98B0059257B /* ViewController.swift */,
+				FA30004F1D95D98C0059257B /* Main.storyboard */,
+				FA3000551D95D98C0059257B /* Assets.xcassets */,
+				FA3000571D95D98C0059257B /* LaunchScreen.storyboard */,
+				FA30005A1D95D98C0059257B /* Info.plist */,
+				FA3000521D95D98C0059257B /* Panteon.xcdatamodeld */,
+			);
+			path = Panteon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3000471D95D98B0059257B /* Panteon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA30005D1D95D98C0059257B /* Build configuration list for PBXNativeTarget "Panteon" */;
+			buildPhases = (
+				FA3000441D95D98B0059257B /* Sources */,
+				FA3000451D95D98B0059257B /* Frameworks */,
+				FA3000461D95D98B0059257B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panteon;
+			productName = Panteon;
+			productReference = FA3000481D95D98B0059257B /* Panteon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3000401D95D98B0059257B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = alex;
+				TargetAttributes = {
+					FA3000471D95D98B0059257B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA3000431D95D98B0059257B /* Build configuration list for PBXProject "Panteon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA30003F1D95D98B0059257B;
+			productRefGroup = FA3000491D95D98B0059257B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3000471D95D98B0059257B /* Panteon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3000461D95D98B0059257B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3000591D95D98C0059257B /* LaunchScreen.storyboard in Resources */,
+				FA3000561D95D98C0059257B /* Assets.xcassets in Resources */,
+				FA3000511D95D98C0059257B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3000441D95D98B0059257B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30004E1D95D98B0059257B /* ViewController.swift in Sources */,
+				FA3000541D95D98C0059257B /* Panteon.xcdatamodeld in Sources */,
+				FA30004C1D95D98B0059257B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA30004F1D95D98C0059257B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3000501D95D98C0059257B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3000571D95D98C0059257B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3000581D95D98C0059257B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA30005B1D95D98C0059257B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA30005C1D95D98C0059257B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA30005E1D95D98C0059257B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Panteon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chis.Panteon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA30005F1D95D98C0059257B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Panteon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chis.Panteon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3000431D95D98B0059257B /* Build configuration list for PBXProject "Panteon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30005B1D95D98C0059257B /* Debug */,
+				FA30005C1D95D98C0059257B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA30005D1D95D98C0059257B /* Build configuration list for PBXNativeTarget "Panteon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30005E1D95D98C0059257B /* Debug */,
+				FA30005F1D95D98C0059257B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA3000521D95D98C0059257B /* Panteon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA3000531D95D98C0059257B /* Panteon.xcdatamodel */,
+			);
+			currentVersion = FA3000531D95D98C0059257B /* Panteon.xcdatamodel */;
+			path = Panteon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA3000401D95D98B0059257B /* Project object */;
+}
